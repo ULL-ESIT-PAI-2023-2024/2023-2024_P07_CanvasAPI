@@ -108,6 +108,7 @@ La Vista generará aleatoriamente (el tipo, su color, su posición, etc.) ese n�
 renderizarlas en la página.
 
 ## Referencias
+* [MDN Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 * [TypeScript Tutorial](https://www.typescripttutorial.net/)
 * [TypeDoc](https://typedoc.org/)
 * [TypeScript track in Exercism](https://exercism.org/tracks/typescript)
