@@ -1,5 +1,5 @@
-# Práctica 6. Diseño Orientado a Objetos en TypeScript
-### Factor de ponderación: 6
+# Práctica 7. La API Canvas. Figuras Geométricas Planas.
+### Factor de ponderación: 7
 
 ### Objetivos
 Los objetivos de esta práctica son:
