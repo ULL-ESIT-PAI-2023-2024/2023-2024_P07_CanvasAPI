@@ -83,21 +83,29 @@ La página [1] será uno de los enlaces de [2] y a su vez [1] tendrá un enlace 
 Enlace también en la página índice [2] la página que contiene la documentación de su proyecto.
 
 ## Figuras geométricas
-De modo similar a como se hizo en la página de la práctica 1 que calcula de forma aproximada el valor de *pi*, 
-haga que su aplicación solicite al usuario (usando la función 
-[prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt))
-el número de figuras a dibujar.
-
-Las figuras han de ser generadas aleatoriamente (el tipo de figura, su color, su posición, etc.) y almacenadas
-en un vector.
-El programa principal ha de recorrer el vector de figuras invocando para cada una de ellas un método *draw()*
-que dibujará la figura en el Canvas de la página web.
+En su aplicación puede puede implementar cualquier figura geométrica plana que desee, pero como mínimo la aplicación ha de
+contemplar cuadrados, rectángulos, triángulos y círculos.
+Cada figura puede caracterizarse con los atributos (*properties*) que estime oportuno, e igualmente puede
+elegir libremente los métodos que desarrolle para cada figura.
+Todas las figuras han de implementar un método *getArea()* que devuelva el valor del área de la figura en
+cuestión.
 
 ## Diseño orientado a objetos
 Se deja total libertad al alumnado para diseñar la aplicación de la forma que estime más conveniente.
 Se valorará la puesta en práctica en el diseño que se realice de los contenidos relacionados con principios y
 buenas prácticas de OOP estudiados en la asignatura.
 
+Sería conveniente tener en cuenta que al menos habrá clases para representar las diferentes figuras (una clase
+para cada tipo de figura considerada) y otra clase a la que podemos llamar *View* (Vista) que será la encargada de la
+visualización de las diferentes figuras en el canvas de la página web.
+
+La clase Vista, de modo similar a como se hizo en la página de la práctica 1 que calcula de forma aproximada el valor de *pi*, 
+solicitará al usuario (usando la función 
+[prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt))
+el número de figuras a dibujar.
+
+La Vista generará aleatoriamente (el tipo, su color, su posición, etc.) ese número de figuras y procederá a
+renderizarlas en la página.
 
 ## Referencias
 * [TypeScript Tutorial](https://www.typescripttutorial.net/)
