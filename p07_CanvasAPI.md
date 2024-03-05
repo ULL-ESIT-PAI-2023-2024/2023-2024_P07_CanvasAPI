@@ -61,7 +61,7 @@ En esta práctica se propone diseñar diferentes clases que permitan la visualiz
 geométricas en una página web estática.
 
 La visualización de la ejecución del programa se realizará a través de una página web alojada
-en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
+en la máquina IaaS-ULL de la asignatura (no utilice la extensión *Live View* de VSC) y cuya URL tendrá la forma:
 
 [1] `http://10.6.129.123:8080/einstein-albert-figures.html`
 
@@ -73,7 +73,6 @@ No es necesario que invierta esfuerzo en la programación de los aspectos de esa
 con TypeScript. 
 Tanto HTML como CSS son aspectos que se estudiarán con mayor profundidad en el futuro. 
 No se requiere que dedique esfuerzo a esos aspectos en esta práctica.
-Tampoco se propone en esta práctica que dote de interactividad alguna a la página que desarrolle.
 
 Diseñe asimismo otra página HTML simple 
 
@@ -93,6 +92,12 @@ Las figuras han de ser generadas aleatoriamente (el tipo de figura, su color, su
 en un vector.
 El programa principal ha de recorrer el vector de figuras invocando para cada una de ellas un método *draw()*
 que dibujará la figura en el Canvas de la página web.
+
+## Diseño orientado a objetos
+Se deja total libertad al alumnado para diseñar la aplicación de la forma que estime más conveniente.
+Se valorará la puesta en práctica en el diseño que se realice de los contenidos relacionados con principios y
+buenas prácticas de OOP estudiados en la asignatura.
+
 
 ## Referencias
 * [TypeScript Tutorial](https://www.typescripttutorial.net/)
